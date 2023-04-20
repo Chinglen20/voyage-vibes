@@ -306,7 +306,7 @@
                 font-size: 40px;
                 position: absolute;
                 right: 0;
-                top: 60px;
+                top: 40px;
             }
             .navbar-links {
                 width: 100%;
@@ -315,9 +315,15 @@
                 padding: 0;
                 display: none;
             }
+            .navbar-links.active {
+                display: flex;
+                background-color: white;
+            }
             .navbar-links ul {
                 flex-direction: column;
                 background-color: #fff;
+                width: 100%;
+                text-align: center;
             }
             .navbar-links ul li {
                 padding: 15px;
@@ -336,7 +342,8 @@
                 display: none;
             }
             .brand-name {
-                font-size: 1.7rem;
+                font-size: 2.5rem;
+                font-weight: 600;
             }
             .slogan {
                 font-size: 0.9rem;
@@ -373,7 +380,7 @@
                 width: 92%;
             }
             .boxmain {
-                height: 37%;
+                height: 68%;
             }
             .logo img {
                 width: 80px;
